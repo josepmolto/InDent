@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <link rel="stylesheet" href="css/columns.css">
+    <script src="https://kit.fontawesome.com/41da90f47e.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -20,15 +21,53 @@
                 <p>Hello, world!</p>
                 <div class="row">
                     <div class="col-9">
-                        <p>Test</p>
+                        <p class="text-primary text-right text-uppercase font-weight-bold">right  test</p>
                     </div>
                     <div class="col-3">
+                        <i class="fas fa-heart fa-2x text-danger"></i> yourself. Beauty comes from the inside out.
                         <p>Mock</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-lg-3 offset-lg-6">
-                <p>Hello Jupiter!</p>
+                <p><del> Jupiter! </del></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 d-flex flex-column flex-lg-row justify-content-lg-center bigpanel">
+                <div class="panel"><p><abbr title="Keep it simple, stupid!">K.I.S.S.</abbr></p></div>
+                <div>
+                    <blockquote class="blockquote text-center text-success">
+                        <p>Lo que no se puede medir no se puede mejorar.</p>
+                        <footer class="blockquote-footer">Anónimo, <cite title="The Greek Way">The Greek Way</cite></footer>
+                  </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+              <div class="d-flex align-items-start bigpanel">
+                <div class="panel">Flex item 1</div>
+                <div class="panel align-self-center">Flex item 2</div>
+                <div class="panel">Flex item 3</div>
+              </div>
+            </div>
+            
+            <div class="col-4">
+              <div class="d-flex align-items-center bigpanel">
+                <div class="panel align-self-stretch">Flex item 1</div>
+                <div class="panel">Flex item 2</div>
+                <div class="panel ml-auto align-self-end">Flex item 3</div>
+              </div>
+            </div>
+            
+            <div class="col-4">
+              <div class="d-flex align-items-end bigpanel">
+                <div class="panel mr-auto">Flex item 1</div>
+                <div class="panel">Flex item 2</div>
+                <div class="panel">Flex item 3</div>
+              </div>
             </div>
         </div>
     </div>
