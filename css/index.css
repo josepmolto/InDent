@@ -38,15 +38,15 @@ footer a{
 .lines{
   background-color: red;
   color: white;
-  padding-top: 100em;
+  padding-top: 2em;
 }
 .goals{
-  padding-top: 100em;
+  padding-top: 2em;
   color: white;
   background-color: blue;
 }
 .doctors{
-  padding-top: 100em;
+  padding-top: 2em;
   color: white;
   background-color: green;
 }
