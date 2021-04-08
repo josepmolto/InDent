@@ -1,5 +1,5 @@
 $(function() {
     $.scrollify({
-      section : ".panel",
+      section : ".section",
     });
   });

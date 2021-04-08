@@ -33,7 +33,6 @@ footer a{
 .logo{
   padding-bottom: 2em;
   padding-top: 2em;
-  padding-left: 7em;
 }
 .lines{
   background-color: red;
@@ -47,6 +46,11 @@ footer a{
 }
 .doctors{
   padding-top: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
   color: white;
-  background-color: green;
+  background-color: cornflowerblue;
+}
+.section{
+  padding-top: 3em;
 }
