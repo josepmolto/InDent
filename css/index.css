@@ -36,14 +36,14 @@ footer a{
   padding-top: 2em;
 }
 .lines{
-  background-color: #C13721;
+  background-color: #EA2027;
   color: white;
   padding-top: 2em;
 }
 .goals{
   padding-top: 2em;
   color: white;
-  background-color:#21C177;
+  background-color:#006266;
 }
 .doctors{
   padding-top: 2em;
@@ -67,4 +67,7 @@ footer a{
 }
 .inner{
   padding-top: 15%;
+}
+.accordion{
+  color: black;
 }
