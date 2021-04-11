@@ -1,3 +1,6 @@
+html{
+  background-color: #f1f0ee;
+}
 .panel {
   border-radius: 4px;
   padding: 0.5rem;
@@ -70,4 +73,7 @@ footer a{
 }
 .accordion{
   color: black;
+}
+.panel-default > .panel-line {
+  background-color: #f1f0ee;
 }
