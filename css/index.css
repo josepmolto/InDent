@@ -21,7 +21,7 @@ html{
 footer{
   color: black;
   background-color: #f1f0ee;
-  padding:50px 0;
+  padding:20px 0;
 }
 footer p{
   font-weight:bold
@@ -39,21 +39,21 @@ footer a{
   padding-top: 2em;
 }
 .lines{
-  background-color: #EA2027;
+  background-color:rgba(112, 113, 139, 0.9);
   color: white;
   padding-top: 2em;
 }
-.goals{
+.our_focus{
   padding-top: 2em;
   color: white;
-  background-color:#006266;
+  background-color:rgba(106, 138, 131, 0.9) ;
 }
 .doctors{
   padding-top: 2em;
   padding-right: 1em;
   padding-left: 1em;
   color: white;
-  background-color: cornflowerblue;
+  background-color: rgba(92, 108, 124, 0.9);
 }
 .news{
   margin-top: 1em;
@@ -67,14 +67,14 @@ footer a{
   padding-top: 3em;
 }
 .cover {
-  background-image: url(../img/cover_page_opacity.png);
+  background-image: url(../img/background-65.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color:#506355;
-  color: white;
-  padding-bottom: 20em;
+  color: black;
+  padding-bottom: 7em;
 }
 .inner{
   padding-top: 15%;
