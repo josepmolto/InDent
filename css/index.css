@@ -65,6 +65,7 @@ footer a{
 }
 .section{
   padding-top: 3em;
+  font-size: 120%;
 }
 .cover {
   background-image: url(../img/background-65.png);
@@ -84,4 +85,15 @@ footer a{
 }
 .panel-default > .panel-line {
   background-color: #f1f0ee;
+}
+.doctor_headline{
+ padding-bottom: 4em;
+}
+.dicon{
+  padding-right: 0.5em;
+}
+@media (max-width: 600px) {
+  .dicon {
+    padding-right: 0em;
+  }
 }
