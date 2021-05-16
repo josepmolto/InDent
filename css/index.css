@@ -38,15 +38,27 @@ footer a{
   padding-bottom: 2em;
   padding-top: 2em;
 }
-.lines{
-  background-color:rgba(112, 113, 139, 0.9);
-  color: white;
-  padding-top: 2em;
-}
 .our_focus{
   padding-top: 2em;
   color: white;
-  background-color:rgba(106, 138, 131, 0.9) ;
+  background-color: rgba(92, 108, 124, 0.9);
+}
+.line-panel{
+  color: white;
+  background-color:rgba(43, 59, 82, 0.9);
+}
+.line-button{
+  color: white !important;
+  background-color: grey !important;
+}
+.list-group-line .list-group-item{
+  color: white;
+  background-color:rgba(43, 59, 82, 0.9);
+}
+.lines{
+  background-color:rgba(43, 59, 82, 0.9);
+  color: white;
+  padding-top: 2em;
 }
 .doctors{
   padding-top: 2em;
