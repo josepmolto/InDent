@@ -38,6 +38,10 @@ footer a{
   padding-bottom: 2em;
   padding-top: 2em;
 }
+.remove-bg{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
 .our_focus{
   padding-top: 2em;
   color: white;
@@ -49,7 +53,9 @@ footer a{
 }
 .line-button{
   color: white !important;
-  background-color: grey !important;
+}
+.panel-line{
+  background-color: rgb(89,110, 140) !important;
 }
 .list-group-line .list-group-item{
   color: white;
@@ -66,6 +72,10 @@ footer a{
   padding-left: 1em;
   color: white;
   background-color: rgba(92, 108, 124, 0.9);
+}
+.social-media
+{
+  margin-top: 1.5em;
 }
 .news{
   margin-top: 1em;
@@ -85,7 +95,7 @@ footer a{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color:#506355;
+  background-color:#353635;
   color: black;
 }
 .inner{
