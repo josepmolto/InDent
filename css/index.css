@@ -31,6 +31,7 @@ footer a{
  color: inherit;
 }
 .navbar{
+  padding-top: 0em;
   background-color: #f1f0ee;
 }
 
@@ -70,8 +71,12 @@ footer a{
   padding-top: 2em;
   padding-right: 1em;
   padding-left: 1em;
+  padding-bottom: 2em;
   color: white;
   background-color: rgba(92, 108, 124, 0.9);
+}
+.doctor{
+  margin-top: 8em;
 }
 .social-media
 {
@@ -82,11 +87,10 @@ footer a{
   padding-right: 1em;
   padding-left: 1em;
   color: white;
-  background-color: #738277
-  ;
+  background-color: #738277;
 }
 .section{
-  padding-top: 3em;
+  padding-top: 10em;
   font-size: 120%;
 }
 .cover {
@@ -99,9 +103,10 @@ footer a{
   color: black;
 }
 .inner{
-  padding-top:  15%;
-  background-color: rgba(112, 139, 129, 0.8);
-  padding-bottom: 15%;
+  padding-top: 5%;
+  background-color: rgba(112, 139, 129, 0.7);
+  padding-bottom: 1%;
+  color: white;
 }
 .accordion{
   color: black;
@@ -109,11 +114,17 @@ footer a{
 .panel-default > .panel-line {
   background-color: #f1f0ee;
 }
-.doctor_headline{
- padding-bottom: 4em;
-}
 .dicon{
   padding-right: 0.5em;
+}
+.publications
+{
+  padding-top: 2em;
+  padding-bottom: 3em;
+  color: white;
+  background-color: rgba(92, 108, 124, 0.9);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 @media (max-width: 600px) {
   .dicon {
