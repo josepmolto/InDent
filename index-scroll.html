@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="stylesheet" href="css/index.css">
   <script src="https://kit.fontawesome.com/41da90f47e.js" crossorigin="anonymous"></script>
+  <!-- Fullview -->
+  <link rel="stylesheet" type="text/css" href="js/fullview/fullview.min.css" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
@@ -16,7 +18,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light  navbar-expand-sm mt-1 fixed-top">
+  <nav id= "navbar" class="navbar navbar-light  navbar-expand-sm mt-1">
     <a class="navbar-brand" href="index.html">
       <img src="img/indentlogo.jpg" width="60px" alt="logo">
       <p>InDent</p>
@@ -49,7 +51,7 @@
   </nav>
   <div class="container-fluid">
     <div class="cover">
-      <div class="inner">
+      <div id="fullview" class="inner">
         <!-- <h1 class="text-center">International Dentristy Research Group</h1> -->
         <div class="section row justify-content-center">
           <div class="col-8 col-lg-3 text-center">
@@ -100,177 +102,7 @@
             </p>
           </div>
 
-          <div class="lines panel child" id="lines">
-            <h2 class="text-center font-weight-bold">Lines of research</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eius tempora laudantium? Assumenda maxime
-              hic
-              necessitatibus ratione vitae ex amet, itaque aliquam ab, eveniet magnam cum atque porro, sapiente
-              repellat?
-            </p>
-            <div class="accordion" id="accordion">
-              <div class="card panel-default">
-                <div class="card-header panel-line" id="headingOne">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed line-button" type="button"
-                      data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                      aria-controls="collapseOne">
-                      <h4><strong>Soft tissue regeneration</strong></h4>
-                    </button>
-                  </h2>
-                </div>
-
-                <div id="collapseOne" class="collapse line-panel" aria-labelledby="headingOne" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                  </div>
-                  <h4 class="text-center">Ongoing projects</h4>
-                  <div class="text-left">
-                    <ul class="list-group list-group-flush list-group-line">
-                      <li class="list-group-item">Project 1</li>
-                      <li class="list-group-item">Project 2</li>
-                      <li class="list-group-item">Project 3</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header panel-line" id="headingTwo">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed line-button" type="button"
-                      data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                      aria-controls="collapseTwo">
-                      <h4><strong>GBR (Guided Bone Regeneration) </strong></h4>
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseTwo" class="collapse line-panel" aria-labelledby="headingTwo" data-parent="#accordion">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                  </div>
-                  <h4 class="text-center">Ongoing projects</h4>
-                  <div class="text-left">
-                    <ul class="list-group list-group-flush list-group-line">
-                      <li class="list-group-item">Project 1</li>
-                      <li class="list-group-item">Project 2</li>
-                      <li class="list-group-item">Project 3</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header panel-line" id="headingThree">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed line-button" type="button"
-                      data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                      aria-controls="collapseThree">
-                      <h4><strong>Implants Research</strong></h4>
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseThree" class="collapse line-panel" aria-labelledby="headingThree"
-                  data-parent="#accordion">
-                  <div class="card-body">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
-                      enim
-                      laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
-                      excepturi
-                      quos ut quae commodi!</p>
-                  </div>
-                  <h4 class="text-center">Ongoing projects</h4>
-                  <div class="text-left">
-                    <ul class="list-group list-group-flush list-group-line">
-                      <li class="list-group-item">Project 1</li>
-                      <li class="list-group-item">Project 2</li>
-                      <li class="list-group-item">Project 3</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="doctors fluid child id="doctors">
             <div class="doctor_headline">
@@ -445,7 +277,177 @@
             </div>
           </div>
         </div>
+        <div class="col-md-10 mx-auto lines panel child" id="lines">
+          <h2 class="text-center font-weight-bold">Lines of research</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eius tempora laudantium? Assumenda maxime
+            hic
+            necessitatibus ratione vitae ex amet, itaque aliquam ab, eveniet magnam cum atque porro, sapiente
+            repellat?
+          </p>
+          <div class="accordion" id="accordion">
+            <div class="card panel-default">
+              <div class="card-header panel-line" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed line-button" type="button"
+                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                    aria-controls="collapseOne">
+                    <h4><strong>Soft tissue regeneration</strong></h4>
+                  </button>
+                </h2>
+              </div>
 
+              <div id="collapseOne" class="collapse line-panel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                </div>
+                <h4 class="text-center">Ongoing projects</h4>
+                <div class="text-left">
+                  <ul class="list-group list-group-flush list-group-line">
+                    <li class="list-group-item">Project 1</li>
+                    <li class="list-group-item">Project 2</li>
+                    <li class="list-group-item">Project 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header panel-line" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed line-button" type="button"
+                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    <h4><strong>GBR (Guided Bone Regeneration) </strong></h4>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse line-panel" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                </div>
+                <h4 class="text-center">Ongoing projects</h4>
+                <div class="text-left">
+                  <ul class="list-group list-group-flush list-group-line">
+                    <li class="list-group-item">Project 1</li>
+                    <li class="list-group-item">Project 2</li>
+                    <li class="list-group-item">Project 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header panel-line" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed line-button" type="button"
+                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    <h4><strong>Implants Research</strong></h4>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse line-panel" aria-labelledby="headingThree"
+                data-parent="#accordion">
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, deleniti labore quidem magnam,
+                    enim
+                    laborum porro mollitia obcaecati dolor alias tempora voluptatum? Aperiam deleniti, voluptatum
+                    excepturi
+                    quos ut quae commodi!</p>
+                </div>
+                <h4 class="text-center">Ongoing projects</h4>
+                <div class="text-left">
+                  <ul class="list-group list-group-flush list-group-line">
+                    <li class="list-group-item">Project 1</li>
+                    <li class="list-group-item">Project 2</li>
+                    <li class="list-group-item">Project 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-md-10 mx-auto section news" id="news">
           <h1 class="text-center">News and Events</h1>
           <div class="row">
@@ -566,6 +568,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
   </script>
+  <script type="text/javascript" src="js/fullview/fullview.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <script src="js/fullview.js"></script>
 </body>

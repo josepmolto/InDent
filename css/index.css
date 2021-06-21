@@ -17,7 +17,6 @@ html{
   color: red;
   min-height: 150px;
 }
-
 footer{
   color: black;
   background-color: #f1f0ee;
@@ -31,7 +30,6 @@ footer a{
  color: inherit;
 }
 .navbar{
-  padding-top: 0em;
   background-color: #f1f0ee;
 }
 

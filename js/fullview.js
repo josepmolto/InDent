@@ -1,6 +1,7 @@
 $("#fullview").fullView({
 	dots:  true,
 	dotsPosition:  'right',
-	easing:  'swing',
-    navbar: '#navbar'
+    navbar: "#navbar",
+	easing:  'linear',
+    backToTop: true
 });
