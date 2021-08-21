@@ -20,14 +20,6 @@ nav{
   padding-top: 0em  !important;
   padding-bottom: 0em !important;
 }
-.bigpanel{
-  border-radius: 4px;
-  padding: 0.5rem;
-  margin: 0.2rem;
-  background-color: azure;
-  color: red;
-  min-height: 150px;
-}
 footer{
   color: black;
   background-color: #f1f0ee;
@@ -47,23 +39,19 @@ footer a{
   padding-bottom: 2em;
   padding-top: 2em;
 }
-.remove-bg{
-  filter: brightness(1.1);
-  mix-blend-mode: multiply;
-}
-.our_focus{
-  padding-top: 2em;
-  color: white;
-  border-style: solid;
+.content{
+  border-left: solid;
+  border-right: solid;
   border-width: thin;
   border-color: white;
+}
+.our_focus{
+  padding-top: 10em;
+  color: white;
 }
 .lines{
   color: white;
   margin-top: 1em;
-  border-style: solid;
-  border-width: thin;
-  border-color: white;
 }
 .line-panel{
   color: black;
@@ -76,16 +64,6 @@ footer a{
   padding-top: 1em;
   padding-right: 1em;
   padding-left: 1em;
-  border-style: solid;
-  border-width: thin;
-  border-color: white;
-}
-.new
-{
-  border-style: solid;
-  border-width: thin;
-  border-color: white;
-  margin-bottom: 1em;
 }
 .doctor{
   margin-top: 1em;
@@ -96,16 +74,16 @@ footer a{
   margin-bottom: 1em;
 }
 .news{
-  border-style: solid;
-  border-width: thin;
-  border-color: white;
-  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10em;
 }
 .section{
-  padding-top: 8em;
+  /* padding-top: 8em; */
   font-size: 120%;
 }
 .cover {
+  padding-top: 10em;
   background: 
     linear-gradient(
       rgba(0, 0, 0, 0.7),
@@ -132,13 +110,11 @@ footer a{
 {
   padding-left: 1em;
   padding-right: 1em;
-  margin-bottom: 3em;
-  border-style: solid;
-  border-width: thin;
-  border-color: white;
+  padding-bottom: 1em;
+  padding-top: 10em;
 }
 .contactus{
-  margin-top: 2em;
+  padding-top: 10em;
 }
 
 @media only screen and  (max-width: 600px){
