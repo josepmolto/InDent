@@ -58,8 +58,8 @@ footer a{
 }
 .anchor {
   display: block;
-  height: 20%;
-  margin-top: -20%;
+  height: 8em;
+  margin-top: -8em;
   visibility: hidden;
 }
 
