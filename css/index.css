@@ -56,8 +56,11 @@ footer a{
 .line-panel{
   color: black;
 }
-.anchor{
-  padding-top: 8em;
+.anchor {
+  display: block;
+  height: 8em;
+  margin-top: -8em;
+  visibility: hidden;
 }
 
 .doctors{
