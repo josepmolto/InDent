@@ -20,6 +20,10 @@ nav{
   padding-top: 0em  !important;
   padding-bottom: 0em !important;
 }
+.blockquote-footer
+{
+  color:white !important;
+}
 footer{
   color: black;
   background-color: #f1f0ee;
@@ -44,6 +48,7 @@ footer a{
   border-right: solid;
   border-width: thin;
   border-color: white;
+  background-color:rgba(152, 150, 161, 0.45);
 }
 .our_focus{
   padding-top: 10em;
@@ -52,6 +57,9 @@ footer a{
 .lines{
   color: white;
   margin-top: 1em;
+}
+.line{
+  padding-top: 3.5em;
 }
 .line-panel{
   color: black;
