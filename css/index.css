@@ -38,16 +38,16 @@ footer a{
 }
 .navbar{
   background-color: #f1f0ee;
+  padding-top: 0.6em !important;
+  padding-bottom: 0.6em !important;
+  font-family: "Calibri Light";
 }
 .logo{
   padding-bottom: 2em;
   padding-top: 2em;
 }
 .content{
-  border-left: solid;
-  border-right: solid;
-  border-width: thin;
-  border-color: white;
+  font-family: "Calibri Light";
   background-color:rgba(152, 150, 161, 0.45);
 }
 .our_focus{
@@ -59,7 +59,7 @@ footer a{
   margin-top: 1em;
 }
 .line{
-  padding-top: 3.5em;
+  padding-top: 1em;
 }
 .line-panel{
   color: black;
@@ -114,6 +114,10 @@ footer a{
 .line-button{
   font-size: 0.7em !important;
 }
+.blockquote{
+  font-style: italic !important;
+  font-family: "Calibri Light";
+}
 .dicon{
   padding-right: 0.5em;
 }
@@ -146,4 +150,7 @@ footer a{
   {
     width: 20%;
   }
+}
+.section-title{
+  padding-bottom: 0.5em;
 }
