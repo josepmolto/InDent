@@ -48,6 +48,7 @@ footer a{
 }
 .content{
   font-family: "Calibri Light";
+  font-size: 90%;
   background-color:rgba(152, 150, 161, 0.45);
 }
 .our_focus{
@@ -60,6 +61,14 @@ footer a{
 }
 .line{
   padding-top: 1em;
+}
+.line-article{
+  display: none;
+}
+.line-button{
+  background-color: gray;
+  color: white;
+  border: 1px solid white;  
 }
 .line-panel{
   color: black;
@@ -111,9 +120,6 @@ footer a{
   width: 100%;
   padding-bottom: 1em;
 }
-.line-button{
-  font-size: 0.7em !important;
-}
 .blockquote{
   font-style: italic !important;
   font-family: "Calibri Light";
@@ -131,7 +137,9 @@ footer a{
 .contactus{
   padding-top: 10em;
 }
-
+.references{
+  font-size: 60%;
+}
 @media only screen and  (max-width: 600px){
   .indent_contact
   {
