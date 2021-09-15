@@ -15,7 +15,7 @@
       src="https://kit.fontawesome.com/41da90f47e.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/hiddenButton.js"></script>
+    <script defer src="js/hiddenButton.js"></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -83,7 +83,7 @@
           <blockquote class="blockquote">
             <p class="mb-0">
               "Excellence [...] owes its birth and growth mainly to instruction,
-              […(it)] is the result of habit or custom."
+              […] (it) is the result of habit or custom."
             </p>
             <p class="blockquote-footer">
               Aristotle, Nicomachean,
@@ -134,14 +134,16 @@
             group at InDent Research.
           </p>
           <div class="line">
-            <button
-              class="line-button"
-              data-toggle="tooltip"
-              title="Click on the button to see more information."
-              onclick="hideOrShowButton('GuidedBone')"
-            >
-              <h3 class="font-weight-bold">Guided Bone Regeneration</h3>
-            </button>
+            <div class="button-container">
+              <button
+                class="line-button"
+                data-toggle="tooltip"
+                title="Click on the button to see more information."
+                onclick="hideOrShowButton('GuidedBone')"
+              >
+                <h3 class="font-weight-bold">Guided Bone Regeneration</h3>
+              </button>
+            </div>
             <div class="line-article" id="GuidedBone">
               <p class="text-justify">
                 Implants treatment, chosen from immediate, early or delayed
@@ -405,12 +407,14 @@
             </div>
           </div>
           <div class="line">
-            <button
-              class="line-button"
-              onclick="hideOrShowButton('SoftTissue')"
-            >
-              <h3 class="font-weight-bold">Soft Tissue Augmentation</h3>
-            </button>
+            <div class="button-container">
+              <button
+                class="line-button"
+                onclick="hideOrShowButton('SoftTissue')"
+              >
+                <h3 class="font-weight-bold">Soft Tissue Augmentation</h3>
+              </button>
+            </div>
             <div class="line-article" id="SoftTissue">
               <p class="text-justify">
                 Implant procedures have been associated to the presence of
@@ -632,12 +636,14 @@
             </div>
           </div>
           <div class="line">
-            <button
-              class="line-button"
-              onclick="hideOrShowButton('OrofacialAnatomy')"
-            >
-              <h3 class="font-weight-bold">Orofacial Anatomy</h3>
-            </button>
+            <div class="button-container">
+              <button
+                class="line-button"
+                onclick="hideOrShowButton('OrofacialAnatomy')"
+              >
+                <h3 class="font-weight-bold">Orofacial Anatomy</h3>
+              </button>
+            </div>
             <div class="line-article" id="OrofacialAnatomy">
               <p class="text-justify">
                 Implant success and survival of osseointegrated implants in the
@@ -747,14 +753,16 @@
             </div>
           </div>
           <div class="line">
-            <button
-              class="line-button"
-              onclick="hideOrShowButton('FixedProsthodontics')"
-            >
-              <h3 class="font-weight-bold">
-                Fixed Prosthodontics Dental Preparations
-              </h3>
-            </button>
+            <div class="button-container">
+              <button
+                class="line-button"
+                onclick="hideOrShowButton('FixedProsthodontics')"
+              >
+                <h3 class="font-weight-bold">
+                  Fixed Prosthodontics Dental Preparations
+                </h3>
+              </button>
+            </div>
             <div class="line-article" id="FixedProsthodontics">
               <p class="text-justify">
                 Dental preparation techniques for crown restorations to obtain
@@ -867,12 +875,6 @@
         <div class="doctors panel" id="doctors">
           <div class="doctor_headline">
             <h2 class="text-center font-weight-bold">Meet the team</h2>
-            <p class="lead">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis sunt totam libero tenetur, expedita mollitia possimus
-              labore ducimus. Repellendus dicta tempore fuga ea molestiae iure
-              totam velit neque unde? Sunt?
-            </p>
           </div>
           <div class="doctor">
             <h3 class="text-white text-center font-weight-bold">
@@ -1284,7 +1286,5 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <script src="js/jquery.scrollify.js"></script>
-    <script src="js/scrollify.js"></script>
   </body>
 </html>
