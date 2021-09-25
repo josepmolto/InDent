@@ -75,9 +75,9 @@ h2{
   display: none;
 }
 .line-button{
-  background-color: gray;
+  background: none;
+  border: none;
   color: white;
-  border: 0px solid white;
 }
 .button-container{
   display: flex;
@@ -108,6 +108,9 @@ h2{
 {
   margin-top: 1.5em;
   margin-bottom: 1em;
+}
+.social-media a{
+  color: white;
 }
 .news{
   padding-left: 1em;
@@ -141,7 +144,7 @@ h2{
   color: white;
 }
 .home-img{
-  width: 100%;
+  width: 40%;
   padding-bottom: 1em;
 }
 .blockquote{
