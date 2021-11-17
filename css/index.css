@@ -10,7 +10,7 @@ html{
   margin: 0.2rem;
 }
 .navbar-title{
-  color: #0078A9;
+  color:white;
   margin-bottom: 0.1em;
 }
 .nav-link{
@@ -55,13 +55,10 @@ footer a{
   background-color:rgba(152, 150, 161, 0.7);
 }
 .our_focus{
-  font-size: 1.5rem;
-  /* font-weight: bold; */
-  padding-top: 2em;
-  /* color: #0079a9; */
+  padding-top: 13vh;
 }
 h2{
-  color: rgb(35, 89, 190);
+  color: white;
   font-size: 3rem !important;
 }
 .lines{
@@ -133,10 +130,10 @@ h2{
   padding-top: 10em;
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ),
-    url(../img/background.jpg);
+    url(../img/junior-res.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -188,4 +185,9 @@ h2{
 }
 .section-title{
   padding-bottom: 0.5em;
+}
+.references p
+{
+  padding: 0;
+  margin: 0;
 }
