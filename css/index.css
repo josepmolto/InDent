@@ -1,5 +1,7 @@
-html, body{
-  background-color: #f1f0ee;
+body{
+  background-color: #1f2933 !important;
+  /* background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+  
 }
 html{
   scroll-snap-type: y mandatory;
@@ -128,7 +130,7 @@ h2{
 }
 .cover {
   padding-top: 10em;
-  background: 
+  /* background: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -136,17 +138,18 @@ h2{
     url(../img/junior-res.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: fixed; */
+  /* background-size: cover; */
   color: white;
 }
 .home-img{
-  width: 17em;
+  width: 32.5em;
   padding-bottom: 1em;
 }
 .blockquote{
   font-style: italic !important;
   font-family: "Calibri Light";
+  color: white;
 }
 .dicon{
   padding-right: 0.5em;
@@ -190,4 +193,17 @@ h2{
 {
   padding: 0;
   margin: 0;
+}
+.doctor_bio
+{
+  padding-top: 1.2em;
+}
+.doctor_bio .first_paragraph
+{
+  text-indent: 2em;
+}
+.event_img
+{
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
